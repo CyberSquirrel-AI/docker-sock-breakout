@@ -11,7 +11,7 @@ Mounting `/var/run/docker.sock` gives the container **root-level access to the h
 ## 📁 Project Structure
 
 ```
-docker-sock-poc/
+docker-sock-breakout/
 ├── Dockerfile
 ├── docker-compose.yml
 └── exploit.sh
@@ -31,7 +31,7 @@ docker-sock-poc/
 
 ```bash
 git clone git@github.com:CyberSquirrel-AI/docker-sock-breakout.git
-cd docker-sock-poc
+cd docker-sock-breakout
 
 docker-compose up -d
 docker exec -it docker-sock-breakout sh

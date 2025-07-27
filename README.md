@@ -30,7 +30,7 @@ docker-sock-poc/
 ### 1. Build and Run
 
 ```bash
-git clone https://github.com/yourname/docker-sock-poc.git
+git clone git@github.com:CyberSquirrel-AI/docker-sock-breakout.git
 cd docker-sock-poc
 
 docker-compose up -d

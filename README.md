@@ -33,7 +33,7 @@ docker-sock-breakout/
 git clone https://github.com/CyberSquirrel-AI/docker-sock-breakout.git
 cd docker-sock-breakout
 
-docker-compose up -d
+docker compose up -d
 docker exec -it docker-sock-breakout sh
 ```
 

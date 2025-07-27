@@ -30,7 +30,7 @@ docker-sock-breakout/
 ### 1. Build and Run
 
 ```bash
-git clone git@github.com:CyberSquirrel-AI/docker-sock-breakout.git
+git clone https://github.com/CyberSquirrel-AI/docker-sock-breakout.git
 cd docker-sock-breakout
 
 docker-compose up -d

